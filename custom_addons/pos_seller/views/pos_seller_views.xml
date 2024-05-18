@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_pos_seller" model="ir.actions.act_window">
+        <field name="name">Sellers</field>
+        <field name="res_model">pos.seller</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_pos_seller_root" name="POS Seller"/>
+    <menuitem id="menu_pos_seller" name="Sellers" parent="menu_pos_seller_root" action="action_pos_seller"/>
+</odoo>
